@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.scheduling.annotation.EnableAsync;
 
-@EnableAsync
+@EnableAsync // vytvori pool vlaken (out-of-the-box je velikost rovna poctu jader procesoru)
 @SpringBootApplication
 public class DemoApplication {
 

@@ -1,0 +1,1 @@
+Low level priklad na Spring bez Spring Bootu
